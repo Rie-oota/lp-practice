@@ -1,1 +1,218 @@
 @charset "utf-8";
+
+header {
+  background: #fff;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactbutton {
+  text-decoration: none;
+}
+
+header nav .contacttext {
+  color: #ffffff;
+  font-size: 12px;
+  padding: 12px 14px;
+  background-color: #6ba7eb;
+  transition: color 0.3s;
+}
+
+header nav .contacttext:hover {
+  color: #333;
+}
+
+.keyvisual {
+  background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
+}
+
+.keyvisual-inner {
+  padding: 400px 0;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.work {
+  background: #e3f2fd;
+  padding-top: 50px;
+}
+
+.work-flex {
+  display: flex;
+}
+
+.workimage {
+  width: 40%;
+}
+
+.work img {
+  width: 250px;
+}
+
+.worktext {
+  width: 60%;
+  text-align: center;
+}
+
+.worktext h3 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-top: 20px;
+}
+
+.work p {
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+  margin: 35px 0;
+}
+
+.skills {
+  background: #fff;
+  padding: 50px 0 70px;
+}
+
+.skills h3 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.skillslist {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillslist li img {
+  width: 300px;
+  height: 300px;
+  opacity: 0.7;
+}
+
+.skillslist li {
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.skillslist li img:hover {
+  opacity: 1.0;
+}
+
+.skillslist li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.skillslist li:nth-last-child(-n+3) {
+  margin-bottom: 0;
+}
+
+.plan {
+  background: #d0dfea;
+  padding: 50px 0;
+}
+
+.plan h3 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.plantable {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.plantable tr:first-child {
+  background: #6ba7eb;
+}
+
+.plantable th,td {
+  border-left: 2px solid #fff;
+}
+
+.plantable th:first-child {
+  border-left: 0px;
+}
+
+.plantable th {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 10px;
+}
+
+.plantable td {
+  text-align: center;
+}
+
+.plantable tr {
+  background: #e0efff;
+}
+
+.plantable tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.sns {
+  background: #e3f2fd;
+  padding: 200px 0;
+}
+
+.sns ul {
+  display: flex;
+  justify-content: center;
+}
+
+.sns ul li {
+  overflow: hidden;
+  font-size: 40px;
+  padding: 25px 0;
+  text-align: center;
+  transition: background 0.5s;
+}
+
+.sns ul li i {
+  width: 185px;
+}
+
+.sns ul li:hover {
+  background: #fff;
+}
+
+footer {
+  background: #cfd8bc;
+}
+
+footer p {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  text-align: right;
+  padding: 20px 0 25px 0;
+}
+
+
+
