@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 header {
+  position: fixed;
   background: #fff;
   width: 100%;
   padding: 15px 0;
@@ -66,6 +67,7 @@ h2 {
 
 .workimage {
   width: 40%;
+  text-align: center;
 }
 
 .work img {
@@ -111,6 +113,7 @@ h2 {
   width: 300px;
   height: 300px;
   opacity: 0.7;
+  transition: 0.5s 0s ease;
 }
 
 .skillslist li {
