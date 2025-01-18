@@ -18,6 +18,14 @@ header nav {
   justify-content: space-between;
 }
 
+.c-hamburger-menu {
+  display: none;
+}
+
+.c-hamburger-menu__input {
+  display: none;
+}
+
 .contactbutton {
   text-decoration: none;
 }
@@ -34,12 +42,12 @@ header nav .contacttext:hover {
   color: #333;
 }
 
-.keyvisual {
+main {
   padding-top: 78px;
-  background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
 }
 
-.keyvisual-inner {
+.keyvisual {
+  background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
   padding: 400px 0;
 }
 
@@ -219,5 +227,104 @@ footer p {
   padding: 20px 0 25px 0;
 }
 
+@media screen and ( max-width:1199px) {
 
+  .inner {
+    width: 97%;
+  }
 
+  .work-flex {
+    display: block;
+  }
+
+  .workimage {
+    width: 100%;
+  }
+
+  .worktext {
+    width: 100%;
+  }
+
+  .skillslist {
+    display: block;
+    text-align: center;
+  }
+
+  .skillslist li {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .skillslist li:nth-child(3n) {
+    margin-bottom: 80px;
+  }
+
+  .skillslist li:last-child {
+    margin-bottom: 0;
+  }
+
+}
+
+@media screen and (max-width: 767px){
+
+  .contactbutton {
+    display: none;
+  }
+
+  .c-hamburger-menu {
+    display: block;
+  }
+
+  .c-hamburger-menu__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid;
+    border-color: #cfd8bc;
+    border-radius: 20%;
+    gap: 5px;
+    height: 32px;
+    width: 37px;
+  }
+
+  .c-hamburger-menu__button-mark {
+    background-color: #cfd8bc;
+    height: 1.5px;
+    width: 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .plantable th {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .plantable td {
+    font-size: 12px;
+  }
+
+  .sns {
+    padding: 50px 15px;
+  }
+
+  .sns ul {
+    display: block;
+  }
+
+  .sns ul li {
+    padding: 50px 0;
+  }
+
+  .sns ul li i {
+    width: 100%;
+  }
+
+}
