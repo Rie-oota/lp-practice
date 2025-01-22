@@ -124,6 +124,7 @@ h2 {
   height: 300px;
   opacity: 0.7;
   transition: 0.5s 0s ease;
+  vertical-align: bottom;
 }
 
 .skillslist li {
@@ -233,6 +234,14 @@ footer p {
     width: 97%;
   }
 
+  .keyvisual {
+    padding: 250px;
+  }
+
+  .work {
+    padding-bottom: 50px;
+  }
+
   .work-flex {
     display: block;
   }
@@ -292,6 +301,10 @@ footer p {
     background-color: #cfd8bc;
     height: 1.5px;
     width: 20px;
+  }
+
+  .keyvisual {
+    padding: 200px;
   }
 
   h1 {
