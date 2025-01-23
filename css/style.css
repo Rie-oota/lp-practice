@@ -99,7 +99,7 @@ h2 {
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
-  margin: 35px 0;
+  margin-top: 35px;
 }
 
 .skills {
@@ -235,7 +235,7 @@ footer p {
   }
 
   .keyvisual {
-    padding: 250px;
+    padding: 250px 0;
   }
 
   .work {
@@ -304,7 +304,7 @@ footer p {
   }
 
   .keyvisual {
-    padding: 200px;
+    padding: 200px 0;
   }
 
   h1 {
